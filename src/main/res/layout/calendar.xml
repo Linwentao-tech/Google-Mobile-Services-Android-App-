@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/InnerRelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+            <Button
+                android:text="Back"
+                android:id="@+id/back_calendar"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
+            <Button
+                android:text="Test"
+                android:id="@+id/test_calendar"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
+            <Button
+                android:text="Reset"
+                android:id="@+id/reset_calendar"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/defaultCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"
+            android:text="DEFAULT:"
+            android:textSize="12.3pt" />
+
+        <TextView
+            android:id="@+id/preloadCalendar"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:text="PRELOAD:"
+            android:textSize="12.3pt" />
+
+        <TextView
+            android:id="@+id/preloadOutputCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/defaultOutputCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="168dp"
+            android:textSize="15pt" />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
