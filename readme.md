@@ -12,10 +12,12 @@
 | 6    | 添加GTS AssistantTest    |
 
 #####　注意事项
-　　在测试第六个项目GTS AssistantTest时先要安装VoiceSettingsService.apk,此时可以安装运行voiceSettingsServiceinstaller这个apk，他会先自动检测你的设备有没有安装所需要的apk，如果没有他会为你安装；如果已经完成了gms测试可以再次运行voiceSettingsServiceinstaller,他会自动卸载apk.
+　　
+  在测试第六个项目GTS AssistantTest时先要安装VoiceSettingsService.apk,此时可以安装运行voiceSettingsServiceinstaller这个apk，他会先自动检测你的设备有没有安装所需要的apk，如果没有他会为你安装；如果已经完成了gms测试可以再次运行voiceSettingsServiceinstaller,他会自动卸载apk.
 
 ##### Functionality 
 
+  
   GMS_CHECK is an apk file which is able to list and check the general GMS error items automatically, shorten the circle of problem encounter and solving.
 
 | No.  | title                    |
