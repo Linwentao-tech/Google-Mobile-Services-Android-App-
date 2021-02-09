@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Gms_Check</string>
-    <string name="back">back</string>
-    <string name="gms_version">GMS Version:</string>
-    <string name="security_patch">Security Patch:</string>
-    <string name="first_api_level">First API Level:</string>
-    <string name="test">Test</string>
-
-</resources>
