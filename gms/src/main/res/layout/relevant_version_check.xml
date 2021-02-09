@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id = "@+id/rvc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/InnerRelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+            <Button
+                android:text="Back"
+                android:id="@+id/back_re"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
+            <Button
+                android:text="Test"
+                android:id="@+id/test_re"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Button>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/firstAPILevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="243dp"
+            android:text="FIRST API LEVEL:"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/securityPatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"
+            android:text="SECURITY PATCH:"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/gmsVersion"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:text="GMS VERSION:"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/gmsVersionOutput"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/securityPatchOutput"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="168dp"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/firstAPILevelOutput"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="291dp"
+            android:textSize="15pt" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

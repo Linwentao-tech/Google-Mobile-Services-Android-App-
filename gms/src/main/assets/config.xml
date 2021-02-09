@@ -1,0 +1,34 @@
+<GMS>
+    <!-- #1-->
+    <App>
+        <Chrome>on</Chrome>
+        <Gallery>on</Gallery>
+        <Messaging>on</Messaging>
+        <Calendar>on</Calendar>
+        <Email>on</Email>
+        <Keyboard>on</Keyboard>
+        <Voice_assistant>on</Voice_assistant>
+        <Search>on</Search>
+    </App>
+    <!-- #2-->
+    <Fingerprinter>on</Fingerprinter>
+    <!-- #3-->
+    <Relevant_version_check>on</Relevant_version_check>
+    <!-- #4-->
+    <Notch_check>on</Notch_check>
+    <!-- #5-->
+    <SDK_version_check>on</SDK_version_check>
+    <!-- #6-->
+    <GTS_AssistantTest>
+        <Test-File-Name>VoiceSettingsService.apk</Test-File-Name>
+        <Run-Command>adb shell settings put secure voice_interaction_service android.voicesettings.service/.MainInteractionService</Run-Command>
+        <testAssistantOpenFrontCameraWithoutVoiceInteraction>on</testAssistantOpenFrontCameraWithoutVoiceInteraction>
+        <testAssistantOpenRearCameraWithoutVoiceInteraction>on</testAssistantOpenRearCameraWithoutVoiceInteraction>
+        <testAssistantTakePhotoWithoutVoiceInteraction>on</testAssistantTakePhotoWithoutVoiceInteraction>
+        <testAssistantTakeSelfieWithoutVoiceInteraction>on</testAssistantTakeSelfieWithoutVoiceInteraction>
+        <testAssistantOpenRearCameraWithVoiceInteraction>on</testAssistantOpenRearCameraWithVoiceInteraction>
+        <testAssistantOpenFrontCameraWithVoiceInteraction>on</testAssistantOpenFrontCameraWithVoiceInteraction>
+        <testAssistantTakePhotoWithVoiceInteraction>on</testAssistantTakePhotoWithVoiceInteraction>
+        <testAssistantTakeSelfieWithVoiceInteraction>on</testAssistantTakeSelfieWithVoiceInteraction>
+    </GTS_AssistantTest>
+</GMS>
